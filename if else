@@ -1,0 +1,26 @@
+#include <iostream.h>
+#include <conio.h>
+int main()
+{
+  int a = 1;
+  int b = 2;
+  int c = 3;
+  int d = 4;
+  int aIn;
+  int aOut = 0;
+
+  cout<<"pesteng input: ";cin>>aIn;
+
+  if(aIn == a){
+    aOut += 100;
+  }else if(aIn == b){
+    aOut += 200;
+  }else if(aIn == c){
+    aOut += 300;
+  }else if(aIn == d){
+    aOut += 400;
+  }
+ cout<<"pesteng output: "<<aOut;
+
+  getch();
+}
